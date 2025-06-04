@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GANESH Developer - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="ganesh.jpg" type="image/jpeg">
+    <meta name="google-site-verification" content="aGQSo-o7ytbTWxriIXSIU0PeHCj6DQ1riDtm2OKhplM" />
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">GANESH</div>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <span class="theme-icon">🌞</span>
+                </button>
+            </ul>
+        </div>
+    </nav>>
+    <section id="home">
+        <div class="container">
+            <div class="profile-section">
+                
+                <!-- Profile Image -->
+                <img src="ganesh.jpg" alt="Ganesh Developer" class="profile-photo" width="300" height="300">
+    
+                <!-- Text Content -->
+                <div class="text-content">
+                    <h1>Hi, I'm <span style="color: #2563eb;">GANESH</span> Developer</h1>
+                    <p class="subtitle">Full Stack Web Developer</p>
+                    <p class="description">
+                        I create beautiful and functional websites that help businesses grow.
+                    </p>
+    
+                    <!-- Buttons -->
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>  
+
+    <section id="about">
+        <div class="container">
+            <h2>ABOUT ME</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in creating modern web applications. With  1 month of experience in the prodigy infotech industry, I specialize in building responsive, user-friendly websites that deliver results.</p>
+                </section>
+                    <section id="education">
+                        <div class="container">
+                    <h2>EDUCATION</h2>
+                    <div class="about-EDUCATION">
+                        <div class="about-text-education">
+                            <p>10th calss in ZP HIGH SCHOOL virawada<br>intermediate in ADITYA JUMIOR COLLEGE SRINAGAR kakinada<br> <B>BTECH</B> in cse(AI) at PRAGATI ENGINEERING COLLEGE   </p>
+                        </div>
+                        </section>
+                        <section id="skills">
+                            <div class="container">  
+                                <h2>SKILLS</h2> <!-- Heading above the skill tags -->
+                                <div class="skills">
+                                    <div class="skill-tags">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                        <span>JavaScript</span>
+                                        <span>React</span>
+                                        <span>MongoDB</span>
+                                        <span>MySQL</span>
+                                        <span>Python</span>
+                                        <span>Java</span>
+                                        <span>Problem Solving in c</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>MY PROJECTS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="STOPWATCH.png" alt="STOPWATCH"width="600" height="300" />
+                    </div>
+                    <h3>STOP WATCH </h3>
+                    <p>RUN AND LAP </p>
+                    <div class="project-links">
+                        <a target="_blank" href="https://alwaysganesh09.github.io/stopwatch/" class="btn small">View Live</a>
+                        <a target="_blank" href="https://github.com/alwaysganesh09/stopwatch" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="TICTACTOE.png" alt="TIC-TAC-TOE"width="600" height="300" /> 
+                    </div>
+                    <h3>TIC-TAC-TOE GAME</h3>
+                    <p>PLAY AND RELAX</p>
+                    <div class="project-links">
+                        <a target="_blank" href="https://alwaysganesh09.github.io/tictoctoegame/" class="btn small">View Live</a>
+                        <a target="_blank" href="https://github.com/alwaysganesh09/tictoctoegame" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>GET IN TOUCH</h2>
+            <div class="contact-content">
+                <form id="contact-form" name="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+        </div>
+    
+        <script>
+              const scriptURL = 'https://script.google.com/macros/s/AKfycbxu47CmBrI4aif3mteheBqv1E9iXt6gfQlxH2GLOYDodBcjmUBhea5_h_5b-IvO67Qd/exec';
+    
+            const form = document.forms['contact-form'];
+            const formStatus = document.getElementById('form-status');
+    
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                
+                const submitButton = form.querySelector('button');
+                submitButton.disabled = true;
+                submitButton.textContent = 'Sending...';
+    
+                formStatus.textContent = '';
+    
+                const formData = new FormData(form);
+                fetch(scriptURL, { method: 'POST', body: formData })
+                    .then(response => {
+                        if (response.ok) {
+                            formStatus.textContent = 'Your message has been sent successfully!';
+                            formStatus.style.color = 'green';
+                            form.reset();
+                        } else {
+                            formStatus.textContent = 'Error! Please try again later.';
+                            formStatus.style.color = 'red';
+                        }
+                    })
+                    .catch(error => {
+                        formStatus.textContent = 'Error! Unable to send your message.';
+                        formStatus.style.color = 'red';
+                    })
+                    .finally(() => {
+                        submitButton.disabled = false;
+                        submitButton.textContent = 'Send Message';
+                    });
+            });
+        </script>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/alwaysganesh09"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ganesh-neeli-07863732a/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/919391864598"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2025 GANESH Developer. All rights reserved.</p>
+            
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
